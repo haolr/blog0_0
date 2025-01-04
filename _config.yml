@@ -107,6 +107,25 @@ deploy:
 
 # _config.yml
 theme_config:
-  colorscheme: classic
+  colorscheme: dark
+
   posts_overview:
     show_all_posts: true
+
+  social_links:
+    -
+      icon: github
+      link: https://github.com/haolr
+    -
+      icon: twitter
+      label: "@Ovaoval1n"
+      link: https://x.com/Ovaoval1n
+    -
+      icon: film
+      label: "bilibili"
+      link: https://space.bilibili.com/5740919
+
+  nav:
+    home: /
+    articles: /archives/
+    projects: https://github.com/haolr
